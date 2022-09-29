@@ -15,6 +15,8 @@ int main(){
     PideCade(frase[TAM]);
     PideLetra(letra);
     VecesLetra(cont, letra,frase[TAM]);
+    
+    printf("La letra aparece %d veces",cont);
 
     return 0;
 }
@@ -36,6 +38,5 @@ void VecesLetra(int cont, char letra, char frase[TAM]){
            cont=cont+1;
         }
     }
-    printf("La letra aparece %d veces",cont);
 
 }
