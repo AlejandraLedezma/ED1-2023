@@ -4,16 +4,12 @@
 
 void PatronA(int arreglo[TAM][TAM]);
 void PatronB(int arreglo[TAM][TAM]);
-void PatronE(int arreglo[TAM][TAM]);
-
 
 int main(){
     int arreglo[TAM][TAM];
 
-    //PatronA(arreglo);
-    //PatronB(arreglo);
-    PatronE(arreglo);
-
+    PatronA(arreglo);
+    PatronB(arreglo);
 
 }
 
@@ -45,23 +41,6 @@ void PatronB(int arreglo[TAM][TAM]){
                 }else{
                     printf("0 ");
                 }
-            }
-        printf("\n");
-    }
-}
-
-
-
-//funcion para el segundo patron "e"
-void PatronE(int arreglo[TAM][TAM]){
-    
-        for(int r=0; r<TAM; r++){ //renglones
-            for(int c=0; c<TAM; c++){ //columnas
-             if(c+2 || r+2){
-                printf("1 ");
-             }else{
-                printf("0 ");
-             }
             }
         printf("\n");
     }
