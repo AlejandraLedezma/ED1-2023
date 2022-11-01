@@ -8,7 +8,7 @@ void GenAleatorios(int arreglo[Max]);
 
 
 int main(){
-    int arreglo[Max] = {0, 6, 8, 348, 29, 376, 72, 387, 64, 9};
+    int arreglo[Max];
     GenAleatorios(arreglo);
     Burbuja(arreglo);
 
